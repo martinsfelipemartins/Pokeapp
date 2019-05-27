@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item tools:ignore="StateListReachable">
+        <shape
+            android:shape="rectangle">
+            <corners android:bottomLeftRadius="30dp" android:bottomRightRadius="30dp" android:radius="20dp" android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+<solid
+    android:color="#ffe3" />
+
+        </shape>
+
+    </item>
+
+    <item
+
+        android:state_pressed="true">
+        <shape
+            android:shape="rectangle">
+            <corners android:bottomLeftRadius="30dp" android:bottomRightRadius="30dp" android:radius="20dp" android:topLeftRadius="30dp" android:topRightRadius="30dp" />
+            <solid
+                android:color="#CDDC39"
+                />
+
+        </shape>
+
+    </item>
+
+</selector>
